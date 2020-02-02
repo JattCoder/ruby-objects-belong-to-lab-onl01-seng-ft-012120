@@ -8,6 +8,10 @@ class Post
     @title
   end
 
+end
+
+class Author
+
   def author=(author)
     @author = author
   end
@@ -16,11 +20,11 @@ class Post
     @author
   end
 
-  def self.name=(name)
+  def name=(name)
     @name = name
   end
 
-  def self.name
+  def name
     @name
   end
 
@@ -28,5 +32,5 @@ end
 
 post = Post.new
 post.title
-post.author
-post.author.name
+author.author
+author.author.name
