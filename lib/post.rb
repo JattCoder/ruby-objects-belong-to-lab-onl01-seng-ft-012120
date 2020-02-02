@@ -32,5 +32,6 @@ end
 
 post = Post.new
 post.title
+author = Author.new
 author.author
 author.author.name
