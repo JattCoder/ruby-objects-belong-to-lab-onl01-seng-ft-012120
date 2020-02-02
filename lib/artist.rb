@@ -7,3 +7,7 @@ class Artist
     @name
   end
 end
+
+artist = Artist.new
+artist.name = "Beyonce"
+artist.name
