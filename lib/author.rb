@@ -3,10 +3,10 @@ class Author
   def name=(name)
     @name = name
   end
-  def name 
+  def name
     @name
   end
-  
+
 end
 
 author = Author.new
