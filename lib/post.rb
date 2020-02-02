@@ -17,7 +17,3 @@ class Post
   end
 
 end
-
-
-post = Post.new
-post.title
