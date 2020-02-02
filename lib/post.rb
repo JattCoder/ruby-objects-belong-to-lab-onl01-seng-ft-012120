@@ -16,11 +16,11 @@ class Post
     @author
   end
 
-  def name=(name)
+  def self.name=(name)
     @name = name
   end
 
-  def name
+  def self.name
     @name
   end
 
